@@ -1,0 +1,15 @@
+baseURL: "http://www.test.com/"
+title: "My New Hugo Site"
+MetaDataFormat: "yaml"
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+uglyUrls: true
+disableKinds: ["RSS","sitemap"]
+
+defaultContentLanguage: en
+languages: 
+  en:
+    weight: 3
+  de:
+    weight: 1
